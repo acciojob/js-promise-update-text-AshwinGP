@@ -2,7 +2,7 @@
 function promise(){
 	setTimeout(()=>{
  	 	return new Promise((resolve,reject)=>{
-			resolve(document.getElementById("output").textContent="Hello,world!")
+			resolve(document.getElementById("output").textContent="Hello, world!")
 		})
   	},1000)
 }
